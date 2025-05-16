@@ -32,9 +32,3 @@ Generar una cola con los choferes de una zona específica, y mostrar en pantalla
 uno en el orden correspondiente.
 
 
-hasdhashda
-
-adsjajsdd
-
-
-les aparece esto?
