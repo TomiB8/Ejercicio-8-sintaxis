@@ -24,4 +24,7 @@ e. Depuración por antigüedad:
 Eliminar automáticamente del sistema a los choferes cuya antigüedad supere los 30 años, calculada a partir de su fecha de ingreso.
 
 f. Cola por zona de trabajo:
-Generar una cola con los choferes de una zona específica, y mostrar en pantalla los datos de cada uno en el orden correspondiente.
+Generar una cola con los choferes de una zona específica, y mostrar en pantalla los datos de cada
+uno en el orden correspondiente.
+
+:;;;
