@@ -48,7 +48,23 @@ def menu():
             #Aca va una llamada a la funcion para depurar antigüedad, le paso los años (30 por defecto).
         elif op == "7":
             zona = input("Zona de trabajo: ")
-            #Aca va una llamada a la funcion para generar la cola de choferes por zona, le paso la zona.
+            cola_zona = crearCola()
+            filtrados = #'lista de choferes por zona'(por paramteros se ingresara la lista de choferes y la zona ingresada por el usuario)
+
+            if not filtrados:
+                print("No hay choferes en la zona especificada.")
+                return
+            
+            for chofer in filtrados:
+                encolar(cola_zona, chofer)
+            
+            colat_temp = crearCola()
+            copiarCola(colat_temp, cola_zona)
+
+            print("Choferes en cola de zona:", zona)
+            while not esVacia(colat_temp):
+                chofer = desencolar(colat_temp)
+                #print('mostrarChofer'(chofer)) #Llamada a la funcion que muestra chofer en TADchofer.py
         elif op == "0":
             print("Saliendo...")
             break
