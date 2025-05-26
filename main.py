@@ -16,7 +16,7 @@ def menu():
             nombre = input("Nombre: ")
             apellido = input("Apellido: ")
             legajo = input("Legajo: ")
-            fecha_ingreso = pedir_fecha()
+            fecha_ingreso = 
             nro_camion = input("Número de camión: ")
             zona = input("Zona de trabajo: ")
             chofer = #llamada a funcion que guarda chofer y le paso por paramteros los datos ingresados.
